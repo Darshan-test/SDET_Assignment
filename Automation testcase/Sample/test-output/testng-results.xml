@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-03T23:40:53 IST" name="Suite" finished-at="2025-05-03T23:43:08 IST" duration-ms="135356">
+    <groups>
+    </groups>
+    <test started-at="2025-05-03T23:40:53 IST" name="Chrome Test" finished-at="2025-05-03T23:41:11 IST" duration-ms="18194">
+      <class name="Test1.crossbrowserTesting">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test1.crossbrowserTesting@bcec361]" started-at="2025-05-03T23:40:53 IST" name="setUp" finished-at="2025-05-03T23:41:00 IST" duration-ms="6406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:Test1.crossbrowserTesting@bcec361]" started-at="2025-05-03T23:41:00 IST" name="verifyHomePageTitle" finished-at="2025-05-03T23:41:10 IST" duration-ms="10626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test1.crossbrowserTesting@bcec361]" started-at="2025-05-03T23:41:10 IST" name="tearDown" finished-at="2025-05-03T23:41:11 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test1.crossbrowserTesting -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-05-03T23:40:53 IST" name="Firefox Test" finished-at="2025-05-03T23:41:12 IST" duration-ms="18587">
+      <class name="Test1.crossbrowserTesting">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test1.crossbrowserTesting@762ef0ea]" started-at="2025-05-03T23:40:53 IST" name="setUp" finished-at="2025-05-03T23:41:09 IST" duration-ms="15497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:Test1.crossbrowserTesting@762ef0ea]" started-at="2025-05-03T23:41:09 IST" name="verifyHomePageTitle" finished-at="2025-05-03T23:41:09 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test1.crossbrowserTesting@762ef0ea]" started-at="2025-05-03T23:41:09 IST" name="tearDown" finished-at="2025-05-03T23:41:12 IST" duration-ms="2791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test1.crossbrowserTesting -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2025-05-03T23:40:53 IST" name="Edge Test" finished-at="2025-05-03T23:43:08 IST" duration-ms="135356">
+      <class name="Test1.crossbrowserTesting">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Test1.crossbrowserTesting@424e1977]" started-at="2025-05-03T23:40:53 IST" name="setUp" finished-at="2025-05-03T23:43:07 IST" duration-ms="133771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:Test1.crossbrowserTesting@424e1977]" started-at="2025-05-03T23:43:07 IST" name="verifyHomePageTitle" finished-at="2025-05-03T23:43:07 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test1.crossbrowserTesting@424e1977]" started-at="2025-05-03T23:43:07 IST" name="tearDown" finished-at="2025-05-03T23:43:08 IST" duration-ms="1428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test1.crossbrowserTesting -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Suite -->
+</testng-results>

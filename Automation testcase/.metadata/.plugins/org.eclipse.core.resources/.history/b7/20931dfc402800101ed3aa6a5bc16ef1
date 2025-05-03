@@ -1,0 +1,11 @@
+package PageObject;
+
+public class Snippet {
+	 public WebDriver driver;
+		
+		 public BasePage(WebDriver driver){
+			this.driver= driver;
+			PageFactory.initElements(driver, this);
+		}
+}
+
